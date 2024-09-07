@@ -1,0 +1,69 @@
+* {
+  font-family: "figtree";
+}
+
+body,
+.learning {
+  background-color: hsl(47, 88%, 63%);
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+img,
+.card {
+  border-radius: 25px;
+}
+
+.learning {
+  padding: 10px;
+  margin-right: auto;
+  font-size: small;
+  font-weight: bold;
+  border-radius: 10px;
+  margin-top: 24px;
+  margin-bottom: auto;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  padding: 16px;
+  max-width: 400px;
+  box-shadow: 10px 10px black;
+  margin: min(10px);
+}
+
+.card img {
+  max-width: 100%;
+  height: auto;
+}
+
+h2 {
+  font-size: small;
+}
+
+h1 {
+  font-size: larger;
+}
+
+p1 {
+  color: hsl(0, 0%, 42%);
+  padding-bottom: 24px;
+}
+
+.author {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.author-image {
+  width: 40px;
+  height: auto;
+}
